@@ -9,7 +9,7 @@ import Auth0 from "@auth/qwik/providers/auth0";
  * declare module "@auth/core/types" {
  *   interface Session {
  *     user: {
- *       address: string
+ *       roles: string[]
  *     } & DefaultSession["user"]
  *   }
  * }
